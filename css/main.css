@@ -26,7 +26,9 @@ body {
   margin: 0em 3em 0em 2.5em; /*modificando el margen del header para que el logo y las 3 barras esten en la posicion*/
 height: 10vh;/*ocupe este height para lograr ocupar la primera seccion a pantalla completa*/
 }
-
+.header>nav>ul>li>a:hover{/*cambio de color de las letras del menu*/
+  color: #ff0000;
+}
 .src-only {
   display: none;
 }
@@ -320,12 +322,20 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
   font-size: 5em;
   color:#0ac693;
 }
+.fas:hover{/*cambiando de color con el botton de la flecha*/
+  color: #ec0909;
+}
 
 .social-links {
    margin-top:2em; /*ajustando espaciado de la descripcion con los logos*/
 
 }
-  
+
+/*green area*/
+.post h2{/*tamanio del titulo de la seccion de las publicacines*/
+  font-size: 2em;
+}
+
   .post ul {
     list-style: none;
     display: flex;
@@ -336,6 +346,7 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
 .post ul li {
     min-height: 350px;
     max-height: 3500px;
+    max-width: 80%;/*ajustando tamanio de los cuadros de los articulos*/
     margin: 1rem 2rem;
     flex: 1 0 300px;
 }
@@ -365,19 +376,36 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
     font-size: 0.6em;/*arreglando tamanio de la fuente del menu*/
 }
 
-
-  /*TODO: FALTA CSS */
 }
 
 @media only screen and (min-width: 1024px) {
-  /*TODO: FALTA CSS  last shield*/
+  .contact-form input[type="submit"] {/*ajustando boton de contactar*/
+     width:50%;
+  }
+.about>.container{/**/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about>.container>h2{/**/
+  display: grid;
+  grid-column: 1 / -1;
+  font-size: 30px;
+  margin:0em 3em 3em 0em;
+}
+.contact {
+  padding: 0px 11em;/*ajustando tamanio de los forms*/
+}
+
+
+
 }
 
 @media only screen and (min-width: 1440px) {
-  /*TODO: FALTA CSS */
+
   .container {
     width: 80%;
     margin: 0 auto;
     max-width: 1440px;
   }
 }
+
