@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0em 3em 0em 2.5em; /*modificando el margen del header para que el logo y las 3 barras esten en la posicion*/
-height: 10vh;/*parte de la pantalla completa*/
+height: 10vh;/*ocupe este height para lograr ocupar la primera seccion a pantalla completa*/
 }
 
 .src-only {
@@ -74,7 +74,7 @@ a.hide-desktop.options{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:90vh;/*pantalla completa*/
+  height:90vh;/*ocupe este height para lograr ocupar la primera seccion a pantalla completa*/
 }
 
 .big-hero img {
@@ -108,8 +108,8 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
 }
 /*aumentando tamanio de los logos de github y twitter y agregando espaciado entre ellos*/
 .fab{
- margin:0.2em;   
-  font-size: 2em;
+    margin:0em 0.2em 0.2em 0.2em;
+    font-size: 2em;
   
 }
 .social-links li a {
@@ -129,7 +129,7 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
 .post h2 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1.5em;/*ajustando tamanio del titulo de la seccion publicaciones*/
   margin: 1em;
 }
 
@@ -148,12 +148,13 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
   border-radius: 10px;
   background-color: #ffffff;
   text-align: left;
-  padding-bottom: 3.5em;/*taminio cuadro*/
+  padding-bottom: 2em;
+  margin: 3em 2em 3em 2em;/*ajustando las dimensiones del cuadro*/
   
 }
 
 .post article img {
-  height: 350px;/**/
+  height: 250px;/*ajustando tamanio de las imagenes de los articulos para que se logren ver mejor*/
   width: 100%;
   object-fit: cover;
 }
@@ -162,7 +163,7 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
   color: #0d5061;
   margin-top: 2em;
   padding: 0em 1rem;
-  font-size: 1em;
+  font-size: 1.2 em;/*ajuastando tamanio de los titulos de los articulos*/
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -179,18 +180,18 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
 /* About */
 
 .about {
-  margin-top: 2em;
+  margin: 2em 0em 4em 0em;
 }
 
 .about h2 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1.5em;/*aumentando un poco el tamanio de fuente del titulo acerca de*/
   margin: 2em;
 }
 
 .bio-info img {
-  width: 200px;
+  width: 150px;/*disminuyendo el tamanio del logo*/
 }
 
 .bio-info p {
@@ -205,7 +206,7 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 0px 1em;
+  padding: 0px 3em;/*ajustando tamanio de los forms*/
 }
 
 .contact * + * {
@@ -260,10 +261,12 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
 footer {
   background-color: #0d5061;
   color: #d7dee6;
+
 }
 
 footer .social-links {
-  margin: 0;
+margin: 0;
+height: 9vh;/*ajustando el tamanio de la seccion footer*/
 }
 
 .menu {
