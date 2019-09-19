@@ -299,42 +299,72 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
+  
+
+
+/*big hero*/
+
+.big-hero img{/*arreglando posicion y tamanio de la foto*/
+ margin:4em 0em 0em 0em;
+  width: 250px;
+}
+.big-hero h2{/*arreglando tamanio del titulo de la foto*/
+  font-size: 1.9em;
+}
+
+.big-hero p{/*arreglando tamanio de la descripcion*/
+  font-size: 1.2em;
+}
+/*areglando tamanio y color del circulo con flecha*/
+.fas{
+  font-size: 5em;
+  color:#0ac693;
+}
+
+.social-links {
+   margin-top:2em; /*ajustando espaciado de la descripcion con los logos*/
+
+}
+  
   .post ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .post ul li {
+.post ul li {
     min-height: 350px;
     max-height: 3500px;
     margin: 1rem 2rem;
     flex: 1 0 300px;
-  }
+}
 
-  .logo {
+
+.logo {
     width: 150px;
     margin: 1.5em;
-  }
+}
 
-  .show-desktop {
+.show-desktop {
     display: block;
-  }
+}
 
-  .hide-desktop {
+.hide-desktop {
     display: none;
-  }
+}
 
-  .menu {
-    background-color: #112935;
+.menu {
+    background-color: #112935; 
     position: static;
     z-index: 20;
     width: auto;
-    height: auto;
+    height:auto;
     display: flex;
-    margin-top: 1em;
-  }
+    margin-top: 1.7em;/*ajustando texto del menu*/
+    font-size: 0.6em;/*arreglando tamanio de la fuente del menu*/
+}
+
 
   /*TODO: FALTA CSS */
 }
