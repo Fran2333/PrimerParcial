@@ -228,6 +228,11 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
   font-size: 1em;
   width: 100%;
 }
+.contact-form input[type="submit"]:hover{/*creando efecto cuando el cursor este en el boton contactar*/
+  background-color:#7fffd4;
+  color: #000000;
+}
+
 
 /* Decorando placeholder */
 
@@ -379,24 +384,66 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
 }
 
 @media only screen and (min-width: 1024px) {
-  .contact-form input[type="submit"] {/*ajustando boton de contactar*/
+ 
+  /*big hero*/
+    .big-hero img{/*ajustando el tamanio de la foto*/
+      width:200px;
+    }
+    .big-hero h2{/*agrandando el nombre Nestor Aldana*/
+      margin:0.5em 0em 0em 0em;
+      font-size: 3em; 
+    }
+    .social-links{/*ajustando los logos de git y twitter*/
+      margin: 0em;
+    }
+  
+  /*green area*/
+  .green-area{/*ajustando tamanio de la seccion para que se vea solo la seccion en pantalla*/
+    height:100vh;
+  }
+.post h2{/*agrandando el tamanio del titulo Publicaciones*/
+  font-size: 2.5em;
+}
+
+  .post article img{/*ajustando el tamanio de las imagenes de los articulos*/
+  height:150px;
+}
+
+  .post ul li article{/*poniendo los articulos en una misma linea*/
+    display: flex;
+    flex-direction: column;
+  }
+  .post ul li {
+  margin:0;/*quitandole margen a los articulos*/
+  max-width: 33%;/*ajustando tamanio de los cuadros de los articulos*/   
+}
+ /*about*/
+ 
+ .contact-form input[type="submit"] {/*ajustando boton de contactar*/
      width:50%;
   }
-.about>.container{/**/
+  .contact-form label{/*haciendo negrita los label y aumentando un poco su tamanio*/
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+.about>.container{/*dividiamos en dos la seccion de contactar*/
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.about>.container>h2{/**/
+.about>.container>h2{/*modificacion del titulo para que aparezca centrado en la seccion contactar*/
   display: grid;
   grid-column: 1 / -1;
   font-size: 30px;
-  margin:0em 3em 3em 0em;
+  margin:0em 0em 3em 0em;
 }
 .contact {
-  padding: 0px 11em;/*ajustando tamanio de los forms*/
+  padding: 0px 7em;/*ajustando tamanio de los forms*/
 }
 
-
+.menu{/*cambiando tamanio de las letras del menu y ajustandolo*/
+  margin:0.5em;
+  font-size: 1.5em;
+}
 
 }
 
