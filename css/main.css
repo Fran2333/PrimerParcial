@@ -20,7 +20,7 @@ body {
   font-weight: 400;
 }
 
-.header {
+.header {/*posicionamiento del logo y el menu*/
   display: flex;
   justify-content: space-between;
   margin: 0em 3em 0em 2.5em; /*modificando el margen del header para que el logo y las 3 barras esten en la posicion*/
@@ -37,7 +37,7 @@ height: 10vh;/*ocupe este height para lograr ocupar la primera seccion a pantall
   display: none;
 }
 
-p {
+p {/*dandole tamanio a la letra del texto*/
   font-size: 0.75em;
   padding: 1rem;
   line-height: 25px;
@@ -71,7 +71,7 @@ a.hide-desktop.options{
 }
 
 /* Big area */
-.big-hero{
+.big-hero{/*posicionanmiento de la foto nombre y descripcion y logos*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,11 +79,11 @@ a.hide-desktop.options{
   height:90vh;/*ocupe este height para lograr ocupar la primera seccion a pantalla completa*/
 }
 
-.big-hero img {
+.big-hero img {/*aumantando la anchura de la imagen*/
   width: 150px;
 }
 
-.big-hero h2 {
+.big-hero h2 {/*Modificando el nombre Nestor aldana dondole tamanio a la letra */
   font-size: 1.875em;
   font-weight: 700;
   letter-spacing: 0.002em;
@@ -114,13 +114,14 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
     font-size: 2em;
   
 }
-.social-links li a {
+.social-links li a {/*dandole color y tamanio a los logos*/
   color: #d7dee6;
   text-decoration: none;
   font-size: 2.5em;
 }
 
-.green-area {
+/*green area*/
+.green-area {/*poniendo fondo de pantalla en la seccion green*/
   background-color: #0ac693;
 }
 
@@ -204,7 +205,7 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
   letter-spacing: 2px;
 }
 
-.contact {
+.contact {/*posicionamiento de los formularios*/
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -265,7 +266,7 @@ padding: 5px 15.360px 15.360px 15.360px; /*arreglando espaciado entre el nombre 
   background-image: url("../images/decoracion_oscura_small.svg");
 }
 
-footer {
+footer {/*fondo de  footer y color de la fuente de la letra*/
   background-color: #0d5061;
   color: #d7dee6;
 
@@ -276,7 +277,7 @@ margin: 0;
 height: 9vh;/*ajustando el tamanio de la seccion footer*/
 }
 
-.menu {
+.menu {/**/
   background-color: #112935;
   position: absolute;
   z-index: 20;
