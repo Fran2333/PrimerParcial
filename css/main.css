@@ -456,7 +456,12 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
     margin: 0 auto;
     max-width: 1440px;
   }
+  .big-hero img{/*ajustando tamanio de la foto*/
+    width:250px;
+  }
 
+
+/*green area*/
   .post article img{/*ajustando el tamanio de las imagenes de los articulos*/
     height:250px;
   
