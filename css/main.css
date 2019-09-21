@@ -308,12 +308,11 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
 @media only screen and (min-width: 768px) {
   
 
-
 /*big hero*/
 
 .big-hero img{/*arreglando posicion y tamanio de la foto*/
  margin:4em 0em 0em 0em;
-  width: 250px;
+  width: 170px;
 }
 .big-hero h2{/*arreglando tamanio del titulo de la foto*/
   font-size: 1.9em;
@@ -377,8 +376,8 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
     width: auto;
     height:auto;
     display: flex;
-    margin-top: 1.7em;/*ajustando texto del menu*/
-    font-size: 0.6em;/*arreglando tamanio de la fuente del menu*/
+    margin-top: 0.9em;/*ajustando texto del menu*/
+    font-size: 1.1em;/*arreglando tamanio de la fuente del menu*/
 }
 
 }
