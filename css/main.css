@@ -412,9 +412,12 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
   .post ul li article{/*poniendo los articulos en una misma linea*/
     display: flex;
     flex-direction: column;
+
   }
   .post ul li {
-  margin:0;/*quitandole margen a los articulos*/
+ display: flex;
+ flex-wrap: wrap;/*alineando los articulos*/
+    margin:0;/*quitandole margen a los articulos*/
   max-width: 33%;/*ajustando tamanio de los cuadros de los articulos*/   
 }
  /*about*/
@@ -450,9 +453,15 @@ height: 9vh;/*ajustando el tamanio de la seccion footer*/
 @media only screen and (min-width: 1440px) {
 
   .container {
-    width: 80%;
+    /*quite el width para ajustar a su tamanio designado desde la vista de celular*/
     margin: 0 auto;
     max-width: 1440px;
   }
+
+  .post article img{/*ajustando el tamanio de las imagenes de los articulos*/
+    height:250px;
+  
+  }
+  
 }
 
